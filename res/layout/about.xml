@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="match_parent"
+	android:layout_height="match_parent">
+	
+    <TextView android:layout_width="fill_parent"
+			android:layout_height="wrap_content" 
+			android:text="@string/about_author"
+			android:layout_marginTop="20px" />
+    
+    <TextView android:layout_width="fill_parent"
+			android:layout_height="wrap_content" 
+			android:text="@string/about_email"
+			android:layout_marginTop="20px"/>
+	
+	<Button android:id="@+id/about_back" 
+	  android:text="@string/about_back"
+		android:layout_width="fill_parent"
+		android:layout_marginTop="50px"
+		android:layout_height="wrap_content" />
+
+</LinearLayout>
